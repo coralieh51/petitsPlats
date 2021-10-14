@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    max-width: 1240px;
+    width: 100%;
+}
+
+input {
+    border: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+.ingredient {
+    background-color: $ingredientsColor;
+}
+.appliance {
+    background-color: $appliancesColor;
+}
+.utensil {
+    background-color: $utensilsColor;
+}

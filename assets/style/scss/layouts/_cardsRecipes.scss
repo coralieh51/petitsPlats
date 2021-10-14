@@ -1,0 +1,68 @@
+.cardsContainer {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .cardRecipe {
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    height: 380px;
+    width: 364px;
+
+    &:last-child {
+    }
+    figure {
+      border-radius: 5px;
+      .recipeImg {
+        height: 178px;
+      }
+
+      background-color: #C7BEBE;
+
+      figcaption {
+        overflow: auto;
+        padding-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        height: 186px;
+        background-color: #e7e7e7;
+
+        h2 {
+          padding-left: 20px;
+          width: 50%;
+          font-family: Lato;
+          font-size: 18px;
+        }
+
+        .time {
+          i {
+            padding-right: 7px;
+          }
+          text-align: right;
+          font-family: Lato;
+          padding-right: 20px;
+          width: 50%;
+          font-size: 18px;
+          font-weight: 700;
+        }
+
+        ul {
+          font-family: Lato;
+          padding-left: 20px;
+          width: 50%;
+          font-weight: 700;
+          font-size: 12px;
+        }
+
+        p {
+          padding-left: 10px;
+          padding-right: 20px;
+          width: 50%;
+          font-family: "Roboto Light";
+          font-size: 12px
+        }
+      }
+    }
+  }
+}

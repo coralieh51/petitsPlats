@@ -1,0 +1,26 @@
+{
+  "name": "lespetitsplats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "sass": "sass --watch assets/style/scss:assets/style/css --style compressed",
+    "prefix": "postcss assets/style/css/main.css --use autoprefixer -d assets/style/css/prefixed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coralieh51/petitsPlats.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coralieh51/petitsPlats/issues"
+  },
+  "homepage": "https://github.com/coralieh51/petitsPlats#readme",
+  "dependencies": {
+    "autoprefixer": "^10.3.6",
+    "postcss": "^8.3.8",
+    "postcss-cli": "^9.0.1",
+    "sass": "^1.42.1"
+  }
+}
